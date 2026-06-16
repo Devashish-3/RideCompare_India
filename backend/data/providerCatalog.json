@@ -1,0 +1,30 @@
+{
+  "categoryOrder": [
+    "Bike",
+    "Auto",
+    "Mini Cab",
+    "Sedan",
+    "SUV",
+    "Premium/Luxury"
+  ],
+  "providers": [
+    {
+      "id": "uber",
+      "name": "Uber",
+      "module": "uberProvider",
+      "enabledEnv": "ENABLE_UBER_API"
+    },
+    {
+      "id": "ola",
+      "name": "Ola",
+      "module": "olaProvider",
+      "enabledEnv": "ENABLE_OLA_API"
+    },
+    {
+      "id": "rapido",
+      "name": "Rapido",
+      "module": "rapidoProvider",
+      "enabledEnv": "ENABLE_RAPIDO_API"
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "tu": {
+    "lat": -27.0448424,
+    "lon": -65.3657954,
+    "display_name": "Tucumán, Argentina",
+    "ts": 1779364437362
+  },
+  "t": {
+    "lat": 50.7504894,
+    "lon": 20.7829122,
+    "display_name": "województwo świętokrzyskie, Polska",
+    "ts": 1779364437865
+  },
+  "tuk": {
+    "lat": 52.7966976,
+    "lon": 6.0951866,
+    "display_name": "Tuk, Steenwijkerland, Overijssel, Nederland",
+    "ts": 1779364438521
+  },
+  "tukd": {
+    "lat": -6.2097655,
+    "lon": 106.7004109,
+    "display_name": "Gang Tukd, Pondok Bahar, Karang Tengah, Tangerang, Banten, Jawa, 15158, Indonesia",
+    "ts": 1779364438552
+  },
+  "tukdoji": {
+    "lat": 21.1233571,
+    "lon": 79.1050021,
+    "display_name": "Tukdoji Maharaj Square, Somwari Quarters, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, 440009, India",
+    "ts": 1779364439232
+  },
+  "hudkeshwar": {
+    "results": [
+      {
+        "lat": 21.1102206,
+        "lon": 79.1173141,
+        "display_name": "Hudkeshwar Road, New Subhedar Layout, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, 440034, India"
+      },
+      {
+        "lat": 21.1125831,
+        "lon": 79.1139923,
+        "display_name": "Hudkeshwar Road, New Subhedar Layout, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, 440034, India"
+      },
+      {
+        "lat": 21.105796,
+        "lon": 79.1171854,
+        "display_name": "Hudkeshwar Police Station, Ring Road, Sanjay Gandhi Nagar, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, 440034, India"
+      },
+      {
+        "lat": 21.0816934,
+        "lon": 79.1289887,
+        "display_name": "School of Scholar, Pipla Fata, Ganeshdam, Outer Ring Road, Vihirgaon, Nagpur Rural Taluka, Nagpur, Maharashtra, 440034, India"
+      }
+    ],
+    "ts": 1779364909884
+  },
+  "hudkeshwar police station, ring road, sanjay gandhi nagar, nagpur city, nagpur urban taluka, nagpur, maharashtra, 440034, india": {
+    "results": [
+      {
+        "lat": 21.105796,
+        "lon": 79.1171854,
+        "display_name": "Hudkeshwar Police Station, Ring Road, Sanjay Gandhi Nagar, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, 440034, India"
+      }
+    ],
+    "ts": 1779364921258
+  },
+  "hud": {
+    "results": [
+      {
+        "lat": 42.7350539,
+        "lon": -94.2467749,
+        "display_name": "Humboldt Municipal Airport, 21st Street North, Humboldt, Humboldt County, Iowa, 50548, United States"
+      },
+      {
+        "lat": 33.125766,
+        "lon": 75.4931987,
+        "display_name": "Hud, Doda, Jammu and Kashmir, India"
+      },
+      {
+        "lat": 42.6545796,
+        "lon": -73.7423141,
+        "display_name": "Hudson Line, Mohawk-Hudson Bike-Hike Trail, Liberty Park, Village of Menands, City of Albany, Albany County, New York, 12207, United States"
+      },
+      {
+        "lat": 58.6511265,
+        "lon": 11.4256096,
+        "display_name": "Hud, Tanums kommun, Västra Götalands län, 457 56, Sverige"
+      },
+      {
+        "lat": 49.0493594,
+        "lon": -123.9922742,
+        "display_name": "Hud, Area C (Arrowsmith-Benson), Regional District of Nanaimo, British Columbia, Canada"
+      }
+    ],
+    "ts": 1779367082282
+  },
+  "dominos": {
+    "results": [
+      {
+        "lat": 38.0385758,
+        "lon": 23.7643531,
+        "display_name": "Dominos, 43, Βυζαντίου, Καλογρέζα, Νέα Ιωνία, Δήμος Νέας Ιωνίας, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 141 21, Ελλάς"
+      },
+      {
+        "lat": 38.0009473,
+        "lon": 23.7626485,
+        "display_name": "Dominos, 27, Περρίκου Κωνσταντίνου, Γηροκομείο, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 24, Ελλάς"
+      },
+      {
+        "lat": 38.0574464,
+        "lon": 23.8385415,
+        "display_name": "Dominos, 24, Πηγής, Μελίσσια, Κοινότητα Μελισσίων, Δημοτική Ενότητα Μελισσίων, Δήμος Πεντέλης, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 151 27, Ελλάς"
+      },
+      {
+        "lat": 37.994382,
+        "lon": 23.7739541,
+        "display_name": "Dominos, 27, Κατεχάκη, Ερυθρός Σταυρός, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 25, Ελλάς"
+      },
+      {
+        "lat": 37.8428512,
+        "lon": 23.7716386,
+        "display_name": "Dominos, Παράδρομος Λεωφόρου Βουλιαγμένης, Κοινότητα Βούλας, Δημοτική Ενότητα Βούλας, Δήμος Βάρης - Βούλας - Βουλιαγμένης, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 166 73, Ελλάς"
+      }
+    ],
+    "ts": 1780058287381
+  },
+  "tekri": {
+    "results": [
+      {
+        "lat": 21.3101256,
+        "lon": 76.2453387,
+        "display_name": "Tekri, Abukhana, Burhanpur Tahsil, Burhanpur, Madhya Pradesh, India"
+      },
+      {
+        "lat": 21.4862786,
+        "lon": 80.5470941,
+        "display_name": "Tekri, Lanji Tahsil, Balaghat, Madhya Pradesh, India"
+      },
+      {
+        "lat": 20.6753307,
+        "lon": 79.7534895,
+        "display_name": "Tekri, Nagbhir Taluka, Chandrapur, Maharashtra, India"
+      },
+      {
+        "lat": 21.476373,
+        "lon": 80.364604,
+        "display_name": "Tekri, Amgaon Taluka, Gondiya, Maharashtra, India"
+      },
+      {
+        "lat": 21.3052318,
+        "lon": 76.2418309,
+        "display_name": "Tekri, Abukhana, Burhanpur Tahsil, Burhanpur, Madhya Pradesh, 450331, India"
+      }
+    ],
+    "ts": 1780058301144
+  },
+  "pizza ht": {
+    "results": [
+      {
+        "lat": 40.8502512,
+        "lon": -73.9344711,
+        "display_name": "Pizza Heights, 177, Wadsworth Avenue, Fort George, Manhattan Community Board 12, Manhattan, New York County, New York, 10040, United States"
+      }
+    ],
+    "ts": 1780058316580
+  },
+  "pizza h": {
+    "results": [
+      {
+        "lat": 38.9003617,
+        "lon": -76.9907785,
+        "display_name": "&pizza, 1118, H Street Northeast, Atlas District, Near Northeast, Ward 6, Washington, District of Columbia, 20002, United States"
+      },
+      {
+        "lat": 38.8999554,
+        "lon": -77.0223048,
+        "display_name": "&pizza, 705, H Street Northwest, Chinatown, Ward 2, Washington, District of Columbia, 20001, United States"
+      },
+      {
+        "lat": 36.7292161,
+        "lon": 3.0043467,
+        "display_name": "Pizza, CW 116, El Achour ⵍⴰⵛⵓⵔ العاشور, Cité Boualem Mokadem, Draria ⴷⵔⴰⵔⵢⴰ درارية, Draria, الجزائر ⴷⵣⴰⵢⴻⵔ, 16000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر"
+      },
+      {
+        "lat": 36.7241225,
+        "lon": 3.012926,
+        "display_name": "Pizza, CW 116, El Achour ⵍⴰⵛⵓⵔ العاشور, Cité Boualem Mokadem, Draria ⴷⵔⴰⵔⵢⴰ درارية, Draria, الجزائر ⴷⵣⴰⵢⴻⵔ, 16000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر"
+      },
+      {
+        "lat": 43.158646,
+        "lon": 12.4919818,
+        "display_name": "Pizza, Via delle Marche, Colombella, Perugia, Umbria, 06134, Italia"
+      }
+    ],
+    "ts": 1780058317337
+  },
+  "pizza hut": {
+    "results": [
+      {
+        "lat": 19.5031281,
+        "lon": -99.205041,
+        "display_name": "Pizza Hut, Avenida Aquiles Serdán, Colonia Santo Domingo, Santo Domingo Huexotitlán, Ciudad de México, Azcapotzalco, Ciudad de México, 02160, México"
+      },
+      {
+        "lat": 51.592956,
+        "lon": -3.7804247,
+        "display_name": "Pizza Hut, 2, Station Road, Velindre, Port Talbot, Neath Port Talbot, Cymru / Wales, SA13 1JB, United Kingdom"
+      },
+      {
+        "lat": 33.2812768,
+        "lon": 44.3903822,
+        "display_name": "بيتزا هت, شارع خالد بن الوليد, محلة 923, حي بابل, ناحية الكرادة, قضاء الرصافة, بغداد, بلدية الكرادة, قضاء الزوراء, محافظة بغداد, 10070, العراق"
+      },
+      {
+        "lat": 22.2103477,
+        "lon": 113.3239963,
+        "display_name": "必胜客, 白蕉路, 白蕉镇, 斗门区, 珠海市, 广东省, 519125, 中国"
+      },
+      {
+        "lat": 33.525646,
+        "lon": 73.096517,
+        "display_name": "Pizza Hut, ڈی ایچ اے فیز 1, راولپنڈی, تحصیل راولپنڈی چھاؤنی, ضلع راولپنڈی, راولپنڈی ڈویژن, پنجاب, پاکستان"
+      }
+    ],
+    "ts": 1780058318067
+  },
+  "dominos, 43, βυζαντίου, καλογρέζα, νέα ιωνία, δήμος νέας ιωνίας, περιφερειακή ενότητα βορείου τομέα αθηνών, περιφέρεια αττικής, αποκεντρωμένη διοίκηση αττικής, 141 21, ελλάς": {
+    "results": [
+      {
+        "lat": 38.0385758,
+        "lon": 23.7643531,
+        "display_name": "Dominos, 43, Βυζαντίου, Καλογρέζα, Νέα Ιωνία, Δήμος Νέας Ιωνίας, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 141 21, Ελλάς"
+      }
+    ],
+    "ts": 1780058350209
+  },
+  "domino": {
+    "results": [
+      {
+        "lat": 28.5689024,
+        "lon": 77.188864,
+        "display_name": "Domino's, Africa Avenue, Madhavpuram Village, Kidwai Nagar, Vasant Vihar Tehsil, New Delhi, Delhi, 110066, India"
+      },
+      {
+        "lat": 28.5969055,
+        "lon": 77.132516,
+        "display_name": "Domino's, 3/1/1, Gopinath Bazar, Delhi Cantonment, New Delhi, Delhi, 110046, India"
+      },
+      {
+        "lat": 28.6301576,
+        "lon": 77.2197258,
+        "display_name": "Domino's, Radial Road 1, Kashmiri Market, Connaught Place, Chanakya Puri Tehsil, New Delhi, Delhi, 110001, India"
+      },
+      {
+        "lat": 28.5578353,
+        "lon": 77.1643785,
+        "display_name": "Domino's, Munirka Marg, Vasant Vihar, Vasant Vihar Tehsil, New Delhi, Delhi, 110057, India"
+      },
+      {
+        "lat": 28.632992,
+        "lon": 77.1390208,
+        "display_name": "Domino's, Girdhari Lal Goswami Marg, Naraina Vihar, Naraina, New Delhi, Delhi, 110028, India"
+      }
+    ],
+    "ts": 1780058660417
+  },
+  "domi|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.7132975,
+        "lon": 77.2740138,
+        "display_name": "Domi, Chikhaldara, Amravati, Maharashtra, India"
+      },
+      {
+        "lat": 20.8848981,
+        "lon": 77.6312368,
+        "display_name": "Domi, Ganori, Bhatkuli, Amravati, Maharashtra, India"
+      },
+      {
+        "lat": 20.8664695,
+        "lon": 77.6954084,
+        "display_name": "Domi, Pimpri, Amravati, Maharashtra, India"
+      },
+      {
+        "lat": 20.8694205,
+        "lon": 77.6867123,
+        "display_name": "Domi, Borgaon, Nimbhora Bk, Bhatkuli, Amravati, Maharashtra, 444700, India"
+      },
+      {
+        "lat": 21.7171548,
+        "lon": 77.279495,
+        "display_name": "Domi, Chikhaldara, Amravati, Maharashtra, India"
+      }
+    ],
+    "ts": 1780058883525
+  },
+  "dominos|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.1727456,
+        "lon": 72.8683117,
+        "display_name": "Dominos, Krishna Vatika Marg, Gokuldham, Dindoshi, P/S Ward, Mumbai Zone 4, Mumbai, Mumbai Suburban District, Maharashtra, 400063, India"
+      },
+      {
+        "lat": 19.0543136,
+        "lon": 72.8932744,
+        "display_name": "Dominos, Sion Panvel Highway, Ganesh Nagar, Chembur, M/W Ward, Mumbai Zone 5, Mumbai, Mumbai Suburban District, Maharashtra, 400071, India"
+      },
+      {
+        "lat": 25.6164702,
+        "lon": 85.1098046,
+        "display_name": "Dominos, Atal Path Flyover, Patna, Patna Rural, Patna, Bihar, 800023, India"
+      },
+      {
+        "lat": 25.6411767,
+        "lon": 85.1003562,
+        "display_name": "Dominos, Ganga Nagar Lane, Digha, Patna, Patna Rural, Patna, Bihar, 800010, India"
+      },
+      {
+        "lat": 17.3483995,
+        "lon": 78.5083859,
+        "display_name": "dominos, Santosh Nagar Main ROad, Maruti Nagar, Champapet, Ward 39 Santhosh Nagar, Greater Hyderabad Municipal Corporation South Zone, Hyderabad, Saroornagar mandal, Ranga Reddy, Telangana, 500059, India"
+      }
+    ],
+    "ts": 1780058884827
+  },
+  "dominos pizza|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.1685684,
+        "lon": 72.93919,
+        "display_name": "Dominos pizza, Lal Bahadur Shastri Marg, Nirmal Lifestyle, Mulund Colony, T Ward, Mumbai Zone 6, Mumbai, Mumbai Suburban District, Maharashtra, 400082, India"
+      },
+      {
+        "lat": 25.3100499,
+        "lon": 83.0029908,
+        "display_name": "Dominos Pizza, Luxa Road, Banaras Ghats, Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India"
+      },
+      {
+        "lat": 26.2997088,
+        "lon": 73.0391073,
+        "display_name": "DOMINOS PIZZA, Mandore Road, Paota, Jodhpur, Jodhpur Tehsil, Jodhpur, Rajasthan, 342010, India"
+      },
+      {
+        "lat": 18.6398632,
+        "lon": 73.7383505,
+        "display_name": "Dominos Pizza, Service Road, Punawale, Mulshi Subdistrict, Pune District, Maharashtra, 412110, India"
+      },
+      {
+        "lat": 18.6027254,
+        "lon": 73.7161423,
+        "display_name": "Dominos Pizza, Embassy tech zone Rd, Embassy TechZone, Marunji, Mulshi Subdistrict, Pune District, Maharashtra, 411057, India"
+      }
+    ],
+    "ts": 1780058926134
+  },
+  "mg road|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 12.9755264,
+        "lon": 77.6067902,
+        "display_name": "Mahatma Gandhi Road, Shanthala Nagar, Ashokanagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India"
+      },
+      {
+        "lat": 19.1495114,
+        "lon": 72.8683501,
+        "display_name": "MG road, Ketli Pada, Aarey Milk Colony, P/S Ward, Mumbai Zone 4, Mumbai, Mumbai Suburban District, Maharashtra, 400060, India"
+      },
+      {
+        "lat": 22.7201717,
+        "lon": 88.36412,
+        "display_name": "MG Road, SK Path, Khardaha, Kolkata Metropolitan Area, Barrackpore, North 24 Parganas, West Bengal, 700116, India"
+      },
+      {
+        "lat": 22.7278786,
+        "lon": 88.3676011,
+        "display_name": "MG Road, SK Path, Titagarh, Kolkata Metropolitan Area, Barrackpore, North 24 Parganas, West Bengal, 700116, India"
+      },
+      {
+        "lat": 28.4915171,
+        "lon": 77.1433,
+        "display_name": "Acharya Shri Tulsi Marg, Vasant Vihar Tehsil, New Delhi, Delhi, 110047, India"
+      }
+    ],
+    "ts": 1780060675279
+  },
+  "cha|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 33.3202991,
+        "lon": 77.0918289,
+        "display_name": "Cha, Zanskar, Kargil district, Ladakh, India"
+      },
+      {
+        "lat": 33.2439585,
+        "lon": 77.1260898,
+        "display_name": "Cha, Zanskar, Kargil district, Ladakh, India"
+      }
+    ],
+    "ts": 1780060720649
+  },
+  "chatra|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 24.1062316,
+        "lon": 84.8623379,
+        "display_name": "Chatra, Jharkhand, India"
+      },
+      {
+        "lat": 24.201625,
+        "lon": 84.8781769,
+        "display_name": "Chatra, Jharkhand, India"
+      }
+    ],
+    "ts": 1780060721162
+  },
+  "chatrapati|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 16.7027362,
+        "lon": 74.2376798,
+        "display_name": "Shri Chatrapati Shahu Maharaj Terminus, NH166, Shivaji Park, Kolhapur, Karvir, Kolhapur District, Maharashtra, 416003, India"
+      },
+      {
+        "lat": 19.0840531,
+        "lon": 72.8817054,
+        "display_name": "Sheetal Talao/ Chatrapati Shivaji Maharaj Talao, Kurla West, L Ward, Mumbai Zone 5, Mumbai, Mumbai Suburban District, Maharashtra, India"
+      },
+      {
+        "lat": 20.0005879,
+        "lon": 73.7843746,
+        "display_name": "Chatrapati Shivaji Maharaj Garden, Shalimar, Nashik, Nashik Subdistrict, Nashik District, Maharashtra, 422001, India"
+      },
+      {
+        "lat": 20.0088402,
+        "lon": 73.7898757,
+        "display_name": "Dharamveer Chatrapati Sambajo Raje Bhosle Udyan, Panchavati, Nashik, Nashik Subdistrict, Nashik District, Maharashtra, 422001, India"
+      },
+      {
+        "lat": 16.6607708,
+        "lon": 74.2368461,
+        "display_name": "Shree Chatrapati Shivaji Udyan, Shenda Park, Kolhapur, Karvir, Kolhapur District, Maharashtra, 416013, India"
+      }
+    ],
+    "ts": 1780060726158
+  },
+  "dew|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 20.911493,
+        "lon": 80.0873836,
+        "display_name": "Dewalgaon, SH277, Salai Khurd, Sangadi, Arjuni Morgaon Taluka, Gondiya, Maharashtra, 441702, India"
+      },
+      {
+        "lat": 28.4987116,
+        "lon": 77.000266,
+        "display_name": "Dew's, Sector 106, Gurgaon, Haryana, India"
+      },
+      {
+        "lat": 12.9479068,
+        "lon": 80.2054923,
+        "display_name": "Ramaniyam Ocean Dew, Ward 188, Zone 14 Perungudi, Chennai, Sholinganallur, Chennai, Tamil Nadu, 600117, India"
+      },
+      {
+        "lat": 12.9139914,
+        "lon": 77.5772123,
+        "display_name": "Sobha Dew Flower, JP Nagar 1st Phase, JP Nagar, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, India"
+      },
+      {
+        "lat": 13.0374865,
+        "lon": 77.6392381,
+        "display_name": "Crystal Dew Apartments, HBR Layout 4th Block, Hennur, Bengaluru North City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+      }
+    ],
+    "ts": 1780060736313
+  },
+  "dewas|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.8057498,
+        "lon": 76.2940408,
+        "display_name": "Dewas, Madhya Pradesh, India"
+      },
+      {
+        "lat": 22.96363,
+        "lon": 76.054867,
+        "display_name": "Dewas, Dewas Nagar Tahsil, Dewas, Madhya Pradesh, 455001, India"
+      },
+      {
+        "lat": 23,
+        "lon": 76.166667,
+        "display_name": "Dewas, Madhya Pradesh, 455120, India"
+      }
+    ],
+    "ts": 1780060737425
+  },
+  "dewa|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 27.0355897,
+        "lon": 81.1672167,
+        "display_name": "Dewa, Nawabganj, Barabanki, Uttar Pradesh, 225301, India"
+      },
+      {
+        "lat": 27.180885,
+        "lon": 70.9961269,
+        "display_name": "Dewa, Jaisalmer Tehsil, Jaisalmer, Rajasthan, India"
+      },
+      {
+        "lat": 24.8259628,
+        "lon": 71.0324263,
+        "display_name": "Dewa, Sedwa Tehsil, Barmer, Rajasthan, India"
+      },
+      {
+        "lat": 22.6122882,
+        "lon": 72.7388098,
+        "display_name": "Dewa, SH139, Vaso, Vaso Taluka, Anand, Gujarat, 387380, India"
+      },
+      {
+        "lat": 23.4536255,
+        "lon": 77.1539825,
+        "display_name": "Barkhera Dewa, Shayampur Tahsil, Sehore, Madhya Pradesh, India"
+      }
+    ],
+    "ts": 1780060738580
+  },
+  "laxmi n|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 15.5341093,
+        "lon": 73.8251493,
+        "display_name": "Laxmi, Lane 6, Defence Colony, Defence Colony, Socorro, Sangolda, Bardez, North Goa, Goa, 403521, India"
+      },
+      {
+        "lat": 15.5380926,
+        "lon": 73.7644346,
+        "display_name": "Laxmi, MDR10, Gaurav Vaddo, Candolim, Calangute, Bardez, North Goa, Goa, 403516, India"
+      },
+      {
+        "lat": 15.656902,
+        "lon": 73.7210544,
+        "display_name": "Laxmi Holiday Homes, Quarry Road, Mandrem, Pernem, North Goa, Goa, 403527, India"
+      },
+      {
+        "lat": 15.6801915,
+        "lon": 73.7051992,
+        "display_name": "Laxmi, Travo Street, Madhlawada, Arambol, Pernem, North Goa, Goa, 403524, India"
+      },
+      {
+        "lat": 28.5393404,
+        "lon": 77.2981398,
+        "display_name": "Laxmi Narayan Mandir, Sarita Vihar Road, Pocket N, Sarita Vihar, Sarita Vihar Tehsil, South East Delhi, Delhi, 110025, India"
+      }
+    ],
+    "ts": 1780060748416
+  },
+  "laxmi na|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 12.9502925,
+        "lon": 77.7140288,
+        "display_name": "Laxmi, Manjunadha Layout Main Road, Gandhi Nagar, Munekolala, Munnenkolalu, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560037, India"
+      },
+      {
+        "lat": 17.9767324,
+        "lon": 79.5095822,
+        "display_name": "Laxmi, Kazipet - Somidi Road, Kazipet, Khaazipet mandal, Hanumakonda, Telangana, 506003, India"
+      },
+      {
+        "lat": 32.2538456,
+        "lon": 77.1782709,
+        "display_name": "Laxmi, Peddler Street, Old Manali, Dunghri, Old Manali, Manali, Kullu, Himachal Pradesh, 175131, India"
+      },
+      {
+        "lat": 19.0403623,
+        "lon": 78.6485917,
+        "display_name": "LAXMI, NH61, Harijanwada, Khanapur mandal, Nirmal, Telangana, 504203, India"
+      },
+      {
+        "lat": 17.3880118,
+        "lon": 79.2980064,
+        "display_name": "laxmi, laxmi narasimha saw meel, Mothkur mandal, Yadadri Bhuvanagiri, Telangana, 508277, India"
+      }
+    ],
+    "ts": 1780060748954
+  },
+  "laxmi nagar|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 28.6305974,
+        "lon": 77.277523,
+        "display_name": "Laxmi Nagar, Laxmi Nagar Metro Station, Vikas Marg, Vir Savarkar Block, Shakarpur, Gandhi Nagar Tehsil, East Delhi, Delhi, 110031, India"
+      },
+      {
+        "lat": 6.8921305,
+        "lon": 93.8864626,
+        "display_name": "Laxmi Nagar, Great Nicobar, Nicobar, Andaman and Nicobar Islands, India"
+      },
+      {
+        "lat": 28.6360238,
+        "lon": 77.2751283,
+        "display_name": "Laxmi Nagar, Preet Vihar Tehsil, East Delhi, Delhi, 110031, India"
+      },
+      {
+        "lat": 20.1422879,
+        "lon": 85.5078699,
+        "display_name": "LAXMI NAGAR, Khordha Sadar, Khordha, Odisha, 752056, India"
+      },
+      {
+        "lat": 19.3395977,
+        "lon": 79.4976497,
+        "display_name": "Laxmi Nagar, Kagaznagar mandal, Kumuram Bheem Asifabad, Telangana, 504296, India"
+      }
+    ],
+    "ts": 1780060749990
+  },
+  "domino|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 28.5689024,
+        "lon": 77.188864,
+        "display_name": "Domino's, Africa Avenue, Madhavpuram Village, Kidwai Nagar, Vasant Vihar Tehsil, New Delhi, Delhi, 110066, India"
+      },
+      {
+        "lat": 28.5969055,
+        "lon": 77.132516,
+        "display_name": "Domino's, 3/1/1, Gopinath Bazar, Delhi Cantonment, New Delhi, Delhi, 110046, India"
+      },
+      {
+        "lat": 28.6301576,
+        "lon": 77.2197258,
+        "display_name": "Domino's, Radial Road 1, Kashmiri Market, Connaught Place, Chanakya Puri Tehsil, New Delhi, Delhi, 110001, India"
+      },
+      {
+        "lat": 28.5578353,
+        "lon": 77.1643785,
+        "display_name": "Domino's, Munirka Marg, Vasant Vihar, Vasant Vihar Tehsil, New Delhi, Delhi, 110057, India"
+      },
+      {
+        "lat": 28.632992,
+        "lon": 77.1390208,
+        "display_name": "Domino's, Girdhari Lal Goswami Marg, Naraina Vihar, Naraina, New Delhi, Delhi, 110028, India"
+      }
+    ],
+    "ts": 1780060778137
+  },
+  "dominos, krishna vatika marg, gokuldham, dindoshi, p/s ward, mumbai zone 4, mumbai, mumbai suburban district, maharashtra, 400063, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.1727456,
+        "lon": 72.8683117,
+        "display_name": "Dominos, Krishna Vatika Marg, Gokuldham, Dindoshi, P/S Ward, Mumbai Zone 4, Mumbai, Mumbai Suburban District, Maharashtra, 400063, India"
+      }
+    ],
+    "ts": 1780060780805
+  },
+  "laxmi|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 35.4626981,
+        "lon": 77.1760914,
+        "display_name": "Lakshmi, Leh district, Ladakh, India"
+      },
+      {
+        "lat": 28.8011593,
+        "lon": 79.0276871,
+        "display_name": "laxmi, Rampur, Uttar Pradesh, 244901, India"
+      },
+      {
+        "lat": 19.2014171,
+        "lon": 72.8470786,
+        "display_name": "Laxmi, Shantilal Modi Road, Kandivali West, R/S Ward, Mumbai Zone 4, Mumbai, Mumbai Suburban District, Maharashtra, 400067, India"
+      },
+      {
+        "lat": 19.059063,
+        "lon": 72.8390569,
+        "display_name": "Laxmi, 3, R. B. Vasudevrao Anant Bambardekar Road, Khar, H/W Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400050, India"
+      },
+      {
+        "lat": 12.9502925,
+        "lon": 77.7140288,
+        "display_name": "Laxmi, Manjunadha Layout Main Road, Gandhi Nagar, Munekolala, Munnenkolalu, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560037, India"
+      }
+    ],
+    "ts": 1780060819427
+  },
+  "laxmi nagar, preet vihar tehsil, east delhi, delhi, 110031, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 28.6305974,
+        "lon": 77.277523,
+        "display_name": "Laxmi Nagar, Laxmi Nagar Metro Station, Vikas Marg, Vir Savarkar Block, Shakarpur, Gandhi Nagar Tehsil, East Delhi, Delhi, 110031, India"
+      },
+      {
+        "lat": 28.6360238,
+        "lon": 77.2751283,
+        "display_name": "Laxmi Nagar, Preet Vihar Tehsil, East Delhi, Delhi, 110031, India"
+      }
+    ],
+    "ts": 1780060845932
+  },
+  "dewas, madhya pradesh, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.8057498,
+        "lon": 76.2940408,
+        "display_name": "Dewas, Madhya Pradesh, India"
+      },
+      {
+        "lat": 22.96363,
+        "lon": 76.054867,
+        "display_name": "Dewas, Dewas Nagar Tahsil, Dewas, Madhya Pradesh, 455001, India"
+      },
+      {
+        "lat": 23,
+        "lon": 76.166667,
+        "display_name": "Dewas, Madhya Pradesh, 455120, India"
+      }
+    ],
+    "ts": 1780061951834
+  },
+  "dewas, dewas nagar tahsil, dewas, madhya pradesh, 455001, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.96363,
+        "lon": 76.054867,
+        "display_name": "Dewas, Dewas Nagar Tahsil, Dewas, Madhya Pradesh, 455001, India"
+      },
+      {
+        "lat": 22.9669852,
+        "lon": 76.0614223,
+        "display_name": "Dewas, Dewas Nagar Tahsil, Dewas, Madhya Pradesh, India"
+      }
+    ],
+    "ts": 1780061955108
+  },
+  "rajwada|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.8872506,
+        "lon": 73.4573716,
+        "display_name": "Rajwada, Take harsha, Trimbakeshwar Subdistrict, Nashik District, Maharashtra, India"
+      },
+      {
+        "lat": 19.2859324,
+        "lon": 73.7741802,
+        "display_name": "Rajwada, Khandichiwadi, Junnar, Pune District, Maharashtra, India"
+      },
+      {
+        "lat": 15.5903827,
+        "lon": 73.8157214,
+        "display_name": "Rajwada, Altinho, Mapusa, Bardez, North Goa, Goa, 403507, India"
+      },
+      {
+        "lat": 18.5494,
+        "lon": 73.8042565,
+        "display_name": "Rajwada, Someshwar Wadi Road, Pashan, Pune City Subdistrict, Pune District, Maharashtra, 411001, India"
+      },
+      {
+        "lat": 19.8749987,
+        "lon": 75.3163489,
+        "display_name": "Rajwada, Bhagvan Mahavir Flyover, Cantonment, Chhatrapati Sambhajinagar, Chhatrapati Sambhajinagar District, Maharashtra, 431002, India"
+      }
+    ],
+    "ts": 1780061984095
+  },
+  "rajwada indore|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7184344,
+        "lon": 75.8547755,
+        "display_name": "Rajwada Palace, Sarafa Street, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7185328,
+        "lon": 75.8556191,
+        "display_name": "Rajwada Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7192067,
+        "lon": 75.8569723,
+        "display_name": "Rajwada Palace Station, Mahatma Gandhi Marg, Martand Chowk, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1780061994354
+  },
+  "rajwada palace, sarafa street, indore city, indore, juni indore tahsil, indore, madhya pradesh, 452001, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7184344,
+        "lon": 75.8547755,
+        "display_name": "Rajwada Palace, Sarafa Street, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1780061999566
+  },
+  "rajwada in|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.8872506,
+        "lon": 73.4573716,
+        "display_name": "Rajwada, Take harsha, Trimbakeshwar Subdistrict, Nashik District, Maharashtra, India"
+      },
+      {
+        "lat": 19.2859324,
+        "lon": 73.7741802,
+        "display_name": "Rajwada, Khandichiwadi, Junnar, Pune District, Maharashtra, India"
+      },
+      {
+        "lat": 15.5903827,
+        "lon": 73.8157214,
+        "display_name": "Rajwada, Altinho, Mapusa, Bardez, North Goa, Goa, 403507, India"
+      },
+      {
+        "lat": 18.5494,
+        "lon": 73.8042565,
+        "display_name": "Rajwada, Someshwar Wadi Road, Pashan, Pune City Subdistrict, Pune District, Maharashtra, 411001, India"
+      },
+      {
+        "lat": 19.8749987,
+        "lon": 75.3163489,
+        "display_name": "Rajwada, Bhagvan Mahavir Flyover, Cantonment, Chhatrapati Sambhajinagar, Chhatrapati Sambhajinagar District, Maharashtra, 431002, India"
+      }
+    ],
+    "ts": 1780063219112
+  },
+  "raj|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.309404,
+        "lon": 70.7812427,
+        "display_name": "Rajkot Airport, SH25, Rajkot, Rajkot East Taluka, Rajkot, Gujarat, 360001, India"
+      },
+      {
+        "lat": 21.878069,
+        "lon": 73.5039695,
+        "display_name": "Rajpipla, SH64, Rajpipla, Nandod Taluka, Narmada, Gujarat, 393145, India"
+      },
+      {
+        "lat": 24.7010166,
+        "lon": 84.9927426,
+        "display_name": "Raj, Pachhatti Rd, Bodhgaya, Gaya, Bihar, 824231, India"
+      },
+      {
+        "lat": 18.5104583,
+        "lon": 73.8339961,
+        "display_name": "Raj, Dr. Ketkar Path, Erandwane, Anandnagar, Pune City Subdistrict, Pune District, Maharashtra, 411001, India"
+      },
+      {
+        "lat": 16.5178041,
+        "lon": 80.6752346,
+        "display_name": "raj, Old NH16 Road, Gurunanak Nagar, Patamata Lanka, Vijayawada, Penamaluru, Krishna district, Andhra Pradesh, 520001, India"
+      }
+    ],
+    "ts": 1780063222179
+  },
+  "saty|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 12.9609197,
+        "lon": 77.5483084,
+        "display_name": "saty doctor, Padarayanapura Road, Old Guddadahalli, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560026, India"
+      }
+    ],
+    "ts": 1780064830895
+  },
+  "satya|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 20.4373219,
+        "lon": 76.8710713,
+        "display_name": "Satya, Khamgaon, Asola, Patur, Akola District, Maharashtra, 444501, India"
+      },
+      {
+        "lat": 19.0640216,
+        "lon": 72.8318226,
+        "display_name": "Satya, 411/412, 15th Road, Pali Village, Khar, Bandra West, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400050, India"
+      },
+      {
+        "lat": 16.4753942,
+        "lon": 80.7082308,
+        "display_name": "Satya, Vijayawada - Machilipatnam Road, Kanuru, Gosala, Penamaluru, Krishna district, Andhra Pradesh, 521139, India"
+      },
+      {
+        "lat": 19.2819791,
+        "lon": 72.8627711,
+        "display_name": "Satya, C-60, Sector-5 internal Rd, Sector-5, Mira, Mira-Bhayander, Thane Subdistrict, Thane, Maharashtra, 401107, India"
+      },
+      {
+        "lat": 20.2752608,
+        "lon": 85.8531761,
+        "display_name": "Satya Nagar, Ward 33, South East Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751006, India"
+      }
+    ],
+    "ts": 1780064833118
+  },
+  "satyasai square indore|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7424787,
+        "lon": 75.8766819,
+        "display_name": "SatyaSai Medical, 48/1, Malwa Mill Square - Patnipura Square Road, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1780064837286
+  },
+  "satya sai square indore|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7551996,
+        "lon": 75.8967627,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7552583,
+        "lon": 75.8967544,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7552355,
+        "lon": 75.8966051,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7551485,
+        "lon": 75.8975914,
+        "display_name": "Satya Sai Square, S Service Road, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1780064850002
+  },
+  "satya sai square, indore city, indore, juni indore tahsil, indore, madhya pradesh, 452001, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7551996,
+        "lon": 75.8967627,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7552583,
+        "lon": 75.8967544,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7552355,
+        "lon": 75.8966051,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7551485,
+        "lon": 75.8975914,
+        "display_name": "Satya Sai Square, S Service Road, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1780064855532
+  },
+  "bada|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.7179802,
+        "lon": 75.5297903,
+        "display_name": "Bada, Khargone Tahsil, Khargone, Madhya Pradesh, India"
+      },
+      {
+        "lat": 14.8251136,
+        "lon": 74.153893,
+        "display_name": "Bada, Karwar taluk, Uttara Kannada, Karnataka, 581300, India"
+      },
+      {
+        "lat": 14.9352073,
+        "lon": 75.2294761,
+        "display_name": "Bada, Shiggaon taluk, Haveri, Karnataka, 581202, India"
+      },
+      {
+        "lat": 26.3934843,
+        "lon": 76.4014578,
+        "display_name": "Bada, Lalsot Tehsil, Dausa, Rajasthan, India"
+      },
+      {
+        "lat": 22.9027237,
+        "lon": 69.1483354,
+        "display_name": "Bada, Mandvi Taluka, Kachchh, Gujarat, 370405, India"
+      }
+    ],
+    "ts": 1781256225500
+  },
+  "bada talab bh|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 23.3669313,
+        "lon": 85.3160872,
+        "display_name": "Seva Sadan Bada Talab Road, Mahuatoli, Ranchi, Kanke, Ranchi, Jharkhand, 834001, India"
+      }
+    ],
+    "ts": 1781256226738
+  },
+  "bhopal|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 23.2584857,
+        "lon": 77.401989,
+        "display_name": "Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India"
+      },
+      {
+        "lat": 23.4839759,
+        "lon": 77.3928507,
+        "display_name": "Bhopal, Madhya Pradesh, India"
+      },
+      {
+        "lat": 23.5,
+        "lon": 77.416667,
+        "display_name": "Bhopal, Madhya Pradesh, India"
+      }
+    ],
+    "ts": 1781256236976
+  },
+  "bhopa|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 29.4769041,
+        "lon": 77.8789834,
+        "display_name": "Bhopa, Jansath, Muzaffarnagar, Uttar Pradesh, 251308, India"
+      },
+      {
+        "lat": 26.7047689,
+        "lon": 70.9280348,
+        "display_name": "Bhopa, Fatehgarh Tehsil, Jaisalmer, Rajasthan, India"
+      },
+      {
+        "lat": 23.5459303,
+        "lon": 76.2014293,
+        "display_name": "Bhopa Khedi, Momanbadodiya Tahsil, Shajapur, Madhya Pradesh, India"
+      }
+    ],
+    "ts": 1781256244868
+  },
+  "satya sai|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 13.0215807,
+        "lon": 77.7128053,
+        "display_name": "Satya Sai, Old Madras Road, Medahalli, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560049, India"
+      },
+      {
+        "lat": 17.2323033,
+        "lon": 80.1484992,
+        "display_name": "Satya Sai, Bonakal Road, Police Quarters, Mustafa nagar, Khammam, Khammam Urban mandal, Khammam, Telangana, 507003, India"
+      }
+    ],
+    "ts": 1781256248574
+  },
+  "satya sai i|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 13.4007625,
+        "lon": 77.6976986,
+        "display_name": "Satya Sai Grama, Muddenahalli, Chikkaballapura taluk, Chikkaballapura, Karnataka, 562103, India"
+      },
+      {
+        "lat": 17.7454977,
+        "lon": 83.2991225,
+        "display_name": "Satya Sai Nagar, Radha Krishna Nagar, Akkayyapalem, Visakhapatnam, Visakhapatnam Urban, Visakhapatnam, Andhra Pradesh, 530001, India"
+      },
+      {
+        "lat": 20.2581953,
+        "lon": 85.7770476,
+        "display_name": "Sri Satya Sai Enclave, Ward 49, South West Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, India"
+      },
+      {
+        "lat": 18.3202215,
+        "lon": 83.8964201,
+        "display_name": "Satya Sai Nagar, Srikakulam, Andhra Pradesh, 532001, India"
+      },
+      {
+        "lat": 17.3363107,
+        "lon": 78.3887766,
+        "display_name": "Satya Sai NRI Township, Kismatpur, Gandipet mandal, Ranga Reddy, Telangana, India"
+      }
+    ],
+    "ts": 1781256254771
+  },
+  "satya sai indore|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7652736,
+        "lon": 75.9027457,
+        "display_name": "Satya Sai Nagar Garden, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, India"
+      },
+      {
+        "lat": 22.7551996,
+        "lon": 75.8967627,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7552583,
+        "lon": 75.8967544,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7552355,
+        "lon": 75.8966051,
+        "display_name": "Satya Sai Square, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7546172,
+        "lon": 75.8965754,
+        "display_name": "Satya Sai Bus stop, Old A. B. Road, Indore City, Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1781256256260
+  },
+  "ind|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 20.9225616,
+        "lon": 85.0143305,
+        "display_name": "Industrial, Angul, Odisha, India"
+      },
+      {
+        "lat": 32.6361495,
+        "lon": 76.0865664,
+        "display_name": "Ind, Pukhri, Chamba, Himachal Pradesh, 176319, India"
+      },
+      {
+        "lat": 33.2182973,
+        "lon": 75.030098,
+        "display_name": "Ind, Gool-Gulabgarh, Reasi district, Jammu and Kashmir, India"
+      },
+      {
+        "lat": 20.8730777,
+        "lon": 85.031358,
+        "display_name": "Industrial, Angul, Odisha, 759143, India"
+      }
+    ],
+    "ts": 1781285376525
+  },
+  "indo|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.4096141,
+        "lon": 72.8703676,
+        "display_name": "indo, Waliv, Ambawadi, Vasai-Virar, Vasai Subdistrict, Palghar, Maharashtra, India"
+      },
+      {
+        "lat": 27.75,
+        "lon": 79,
+        "display_name": "Indo-Gangetic Plain, Patiyali, Kasganj, Uttar Pradesh, India"
+      },
+      {
+        "lat": 13.0222347,
+        "lon": 77.5671832,
+        "display_name": "Indian Institute of Science, CV Raman Road, Malleswaram, Sadashiva Nagara, Bengaluru West City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560012, India"
+      },
+      {
+        "lat": 28.6129332,
+        "lon": 77.2294928,
+        "display_name": "India Gate, Shahjahan Road, Pandara Park, Chanakya Puri Tehsil, New Delhi, Delhi, 020626, India"
+      },
+      {
+        "lat": 9.9623143,
+        "lon": 76.2402724,
+        "display_name": "Indo-Portuguese Museum, Bishop Joseph Kureethara Road, Pattalam, Fort Kochi, Kochi, Ernakulam, Kerala, 682001, India"
+      }
+    ],
+    "ts": 1781285377554
+  },
+  "indore|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7203616,
+        "lon": 75.8681996,
+        "display_name": "Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      },
+      {
+        "lat": 22.7108119,
+        "lon": 75.8076918,
+        "display_name": "Indore, Madhya Pradesh, India"
+      },
+      {
+        "lat": 22.6666672,
+        "lon": 75.749998,
+        "display_name": "Indore, Madhya Pradesh, 451225, India"
+      }
+    ],
+    "ts": 1781285377721
+  },
+  "indore, juni indore tahsil, indore, madhya pradesh, 452001, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 22.7203616,
+        "lon": 75.8681996,
+        "display_name": "Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
+      }
+    ],
+    "ts": 1781285380407
+  },
+  "rajwada, khandichiwadi, junnar, pune district, maharashtra, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 19.2859324,
+        "lon": 73.7741802,
+        "display_name": "Rajwada, Khandichiwadi, Junnar, Pune District, Maharashtra, India"
+      }
+    ],
+    "ts": 1781624153597
+  }
+}
