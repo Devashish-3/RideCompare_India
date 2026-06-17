@@ -1218,5 +1218,30 @@
       }
     ],
     "ts": 1781691490132
+  },
+  "nagpur|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.1498134,
+        "lon": 79.0820556,
+        "display_name": "Nagpur, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+      },
+      {
+        "lat": 21.1529647,
+        "lon": 79.0145059,
+        "display_name": "Nagpur, Maharashtra, India"
+      }
+    ],
+    "ts": 1781700332866
+  },
+  "nagpur, maharashtra, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.1498134,
+        "lon": 79.0820556,
+        "display_name": "Nagpur, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+      }
+    ],
+    "ts": 1781700336625
   }
 }
