@@ -1,5 +1,6 @@
 import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
+import mongoose from 'mongoose';
 import cors from 'cors';
 import { compareRides } from './providers/providerAdapter';
 import { reverseGeocode } from './services/reverseGeocode';
@@ -7,6 +8,17 @@ import { forwardGeocode } from './services/forwardGeocode';
 import { RideCompareRequest } from './types/provider';
 
 dotenv.config();
+
+// Initialize MongoDB connection if MONGO_URI is provided
+const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI || process.env.MONGO;
+if (mongoUri) {
+  mongoose
+    .connect(mongoUri)
+    .then(() => console.log('Connected to MongoDB'))
+    .catch((err) => console.error('MongoDB connection error:', err));
+} else {
+  console.warn('No MongoDB connection string found in environment (MONGO_URI)');
+}
 
 const app = express();
 const port = process.env.PORT ? Number(process.env.PORT) : 4000;
@@ -56,6 +68,14 @@ app.get('/reverse-geocode', async (req: Request, res: Response) => {
     console.error('Reverse geocode error', error);
     return res.status(500).json({ error: 'Unable to reverse geocode location' });
   }
+});
+
+/**
+ * Simple DB status endpoint to verify mongoose connection from the client
+ */
+app.get('/db-status', (_req: Request, res: Response) => {
+  const state = mongoose.connection.readyState; // 0 = disconnected, 1 = connected, 2 = connecting, 3 = disconnecting
+  return res.json({ state });
 });
 
 app.get('/geocode', async (req: Request, res: Response) => {

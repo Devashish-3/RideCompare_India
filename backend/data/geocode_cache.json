@@ -1203,5 +1203,20 @@
       }
     ],
     "ts": 1781624153597
+  },
+  "ujjain|lang=en|country=": {
+    "results": [
+      {
+        "lat": 23.1885131,
+        "lon": 75.7716562,
+        "display_name": "Ujjain, Ujjain NagarTahsil, Ujjain, Madhya Pradesh, 456001, India"
+      },
+      {
+        "lat": 23.2933285,
+        "lon": 75.6263115,
+        "display_name": "Ujjain, Madhya Pradesh, India"
+      }
+    ],
+    "ts": 1781691490132
   }
 }
