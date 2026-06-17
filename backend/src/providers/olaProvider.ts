@@ -6,14 +6,15 @@ import { RideCompareRequest, RideResult } from '../types/provider';
  */
 export async function getOlaEstimate(request: RideCompareRequest): Promise<RideResult[]> {
   const { pickup, destination } = request;
-  const distanceFactor = calculateDistanceFactor(pickup, destination);
+  const distanceKm = calculateDistanceKm(pickup, destination);
 
   const results: RideResult[] = [
     {
       provider: 'Ola',
       vehicle: 'Ola Auto',
       category: 'Auto',
-      fare: calculateFare(distanceFactor, 80, 160, 0.9),
+      // per-km rate ~ 0.9
+      fare: calculateFare(distanceKm, 80, 160, 0.9),
       eta_minutes: generateEta(3, 7),
       deep_link: generateOlaDeepLink(pickup, destination, 'Ola Auto')
     },
@@ -21,7 +22,7 @@ export async function getOlaEstimate(request: RideCompareRequest): Promise<RideR
       provider: 'Ola',
       vehicle: 'Ola Mini',
       category: 'Mini Cab',
-      fare: calculateFare(distanceFactor, 110, 290, 1.0),
+      fare: calculateFare(distanceKm, 110, 290, 1.0),
       eta_minutes: generateEta(4, 10),
       deep_link: generateOlaDeepLink(pickup, destination, 'Ola Mini')
     },
@@ -29,7 +30,7 @@ export async function getOlaEstimate(request: RideCompareRequest): Promise<RideR
       provider: 'Ola',
       vehicle: 'Ola Sedan',
       category: 'Sedan',
-      fare: calculateFare(distanceFactor, 210, 380, 1.2),
+      fare: calculateFare(distanceKm, 210, 380, 1.2),
       eta_minutes: generateEta(5, 12),
       deep_link: generateOlaDeepLink(pickup, destination, 'Ola Sedan')
     }
@@ -38,16 +39,26 @@ export async function getOlaEstimate(request: RideCompareRequest): Promise<RideR
   return results;
 }
 
-function calculateDistanceFactor(pickup: RideCompareRequest['pickup'], destination: RideCompareRequest['destination']): number {
-  const latDiff = Math.abs(pickup.lat - destination.lat);
-  const lngDiff = Math.abs(pickup.lng - destination.lng);
-  return Math.max(1, latDiff * 105 + lngDiff * 105);
+function toRadians(deg: number): number {
+  return deg * (Math.PI / 180);
 }
 
-function calculateFare(distanceFactor: number, min: number, max: number, multiplier: number): number {
-  const range = max - min;
-  const base = min + Math.min(range, Math.round(distanceFactor * multiplier * 1.15));
-  return Math.max(min, Math.min(max, base));
+function calculateDistanceKm(pickup: RideCompareRequest['pickup'], destination: RideCompareRequest['destination']): number {
+  const R = 6371; // Earth's radius in km
+  const dLat = toRadians(destination.lat - pickup.lat);
+  const dLon = toRadians(destination.lng - pickup.lng);
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(toRadians(pickup.lat)) * Math.cos(toRadians(destination.lat)) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const distance = R * c;
+  return Math.max(0.1, distance); // minimum 0.1 km
+}
+
+function calculateFare(distanceKm: number, min: number, max: number, perKmRate: number): number {
+  // Fare = min + distanceKm * perKmRate, rounded to nearest integer
+  const computed = min + Math.round(distanceKm * perKmRate);
+  return Math.max(min, computed);
 }
 
 function generateEta(min: number, max: number): number {

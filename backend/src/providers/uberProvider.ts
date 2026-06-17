@@ -6,14 +6,14 @@ import { RideCompareRequest, RideResult } from '../types/provider';
  */
 export async function getUberEstimate(request: RideCompareRequest): Promise<RideResult[]> {
   const { pickup, destination } = request;
-  const distanceFactor = calculateDistanceFactor(pickup, destination);
+  const distanceKm = calculateDistanceKm(pickup, destination);
 
   const results: RideResult[] = [
     {
       provider: 'Uber',
       vehicle: 'Uber Go',
       category: 'Mini Cab',
-      fare: calculateFare(distanceFactor, 120, 260, 0.95),
+      fare: calculateFare(distanceKm, 120, 260, 0.95),
       eta_minutes: generateEta(3, 8),
       deep_link: generateUberDeepLink(pickup, destination, 'Uber Go')
     },
@@ -21,7 +21,7 @@ export async function getUberEstimate(request: RideCompareRequest): Promise<Ride
       provider: 'Uber',
       vehicle: 'Uber Premier',
       category: 'Premium/Luxury',
-      fare: calculateFare(distanceFactor, 250, 420, 1.1),
+      fare: calculateFare(distanceKm, 250, 420, 1.1),
       eta_minutes: generateEta(5, 12),
       deep_link: generateUberDeepLink(pickup, destination, 'Uber Premier')
     }
@@ -30,16 +30,25 @@ export async function getUberEstimate(request: RideCompareRequest): Promise<Ride
   return results;
 }
 
-function calculateDistanceFactor(pickup: RideCompareRequest['pickup'], destination: RideCompareRequest['destination']): number {
-  const latDiff = Math.abs(pickup.lat - destination.lat);
-  const lngDiff = Math.abs(pickup.lng - destination.lng);
-  return Math.max(1, latDiff * 100 + lngDiff * 100);
+function toRadians(deg: number): number {
+  return deg * (Math.PI / 180);
 }
 
-function calculateFare(distanceFactor: number, min: number, max: number, multiplier: number): number {
-  const range = max - min;
-  const base = min + Math.min(range, Math.round(distanceFactor * multiplier * 1.2));
-  return Math.max(min, Math.min(max, base));
+function calculateDistanceKm(pickup: RideCompareRequest['pickup'], destination: RideCompareRequest['destination']): number {
+  const R = 6371;
+  const dLat = toRadians(destination.lat - pickup.lat);
+  const dLon = toRadians(destination.lng - pickup.lng);
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(toRadians(pickup.lat)) * Math.cos(toRadians(destination.lat)) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const distance = R * c;
+  return Math.max(0.1, distance);
+}
+
+function calculateFare(distanceKm: number, min: number, max: number, perKmRate: number): number {
+  const computed = min + Math.round(distanceKm * perKmRate);
+  return Math.max(min, computed);
 }
 
 function generateEta(min: number, max: number): number {

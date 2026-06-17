@@ -1243,5 +1243,145 @@
       }
     ],
     "ts": 1781700336625
+  },
+  "nagpur, nagpur urban taluka, nagpur, maharashtra, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.1498134,
+        "lon": 79.0820556,
+        "display_name": "Nagpur, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+      }
+    ],
+    "ts": 1781701655526
+  },
+  "nagpur, nagpur urban taluka, nagpur, maharashtra,|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.1498134,
+        "lon": 79.0820556,
+        "display_name": "Nagpur, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+      }
+    ],
+    "ts": 1781701683231
+  },
+  "nagpur, nagpur urban taluka, nagpur, maharashtra|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.1498134,
+        "lon": 79.0820556,
+        "display_name": "Nagpur, Nagpur Urban Taluka, Nagpur, Maharashtra, India"
+      }
+    ],
+    "ts": 1781701683939
+  },
+  "nag|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 21.0895028,
+        "lon": 79.0460288,
+        "display_name": "Dr. Babasaheb Ambedkar International Airport, NH47, Nagpur, Nagpur Urban Taluka, Nagpur, Maharashtra, 440024, India"
+      },
+      {
+        "lat": 29.6913149,
+        "lon": 80.0468373,
+        "display_name": "Nag, Gangolihat, Pithoragarh district, Uttarakhand, 262534, India"
+      },
+      {
+        "lat": 31.1290442,
+        "lon": 77.1554589,
+        "display_name": "Nag, Pagog, Shimla ( Rural ), Shimla, Himachal Pradesh, 171003, India"
+      },
+      {
+        "lat": 30.2926685,
+        "lon": 79.0057971,
+        "display_name": "Nag, Rudraprayag, Uttarakhand, 246171, India"
+      },
+      {
+        "lat": 31.4191142,
+        "lon": 77.7170062,
+        "display_name": "Nag, Jaghot, Rampur, Shimla, Himachal Pradesh, 172022, India"
+      }
+    ],
+    "ts": 1781701981041
+  },
+  "banglore|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 12.9587464,
+        "lon": 77.5573456,
+        "display_name": "Government Hospital, Banglore, 1st Cross Road, Valmiki Nagar, Azad Nagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560026, India"
+      },
+      {
+        "lat": 13.0240558,
+        "lon": 77.6240521,
+        "display_name": "Banglore Lions Service Blood Bank, 8th Main Road, HBR Layout 3rd Block, HBR Layout, Bengaluru North City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560052, India"
+      },
+      {
+        "lat": 12.9335752,
+        "lon": 77.6885447,
+        "display_name": "goldenquadilateral banglore, Service Road, Bellanduru, Bellandur, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560103, India"
+      },
+      {
+        "lat": 17.5320132,
+        "lon": 78.2653172,
+        "display_name": "Banglore Bakery, MG Road, Patancheru, Ward 113 Patancheruvu, Hyderabad, Patancheruvu mandal, Sangareddy, Telangana, 502319, India"
+      },
+      {
+        "lat": 17.4952822,
+        "lon": 78.3586015,
+        "display_name": "Banglore iyengar bakery, Hafeezpet Road, Madhava Nagar, Ward 107 Madhapur, Nadigada Thada, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500049, India"
+      }
+    ],
+    "ts": 1781701994316
+  },
+  "ban|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 23.5848512,
+        "lon": 77.9002481,
+        "display_name": "Ban, Gulabganj Tahsil, Vidisha, Madhya Pradesh, India"
+      },
+      {
+        "lat": 22.5977459,
+        "lon": 74.5176225,
+        "display_name": "Ban, Ranapur Tahsil, Jhabua, Madhya Pradesh, India"
+      },
+      {
+        "lat": 23.5862007,
+        "lon": 77.903173,
+        "display_name": "Ban, Gulabganj Tahsil, Vidisha, Madhya Pradesh, India"
+      },
+      {
+        "lat": 23.3517319,
+        "lon": 74.3259966,
+        "display_name": "Ban, Bagidora Tehsil, Banswara, Rajasthan, 327606, India"
+      },
+      {
+        "lat": 29.9939897,
+        "lon": 77.0747494,
+        "display_name": "Ban, Ladwa, Kurukshetra, Haryana, India"
+      }
+    ],
+    "ts": 1781702006250
+  },
+  "bengaluru|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 12.9767936,
+        "lon": 77.590082,
+        "display_name": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+      }
+    ],
+    "ts": 1781702023622
+  },
+  "bengaluru, bangalore north, bengaluru urban, karnataka, india|lang=en|country=in": {
+    "results": [
+      {
+        "lat": 12.9767936,
+        "lon": 77.590082,
+        "display_name": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India"
+      }
+    ],
+    "ts": 1781702026451
   }
 }
