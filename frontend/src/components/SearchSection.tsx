@@ -41,7 +41,9 @@ export function SearchSection({
             <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-cyan-400/80">From</p>
             <p className="mt-1 text-sm font-semibold text-slate-100">
               {isPickupSet
-                ? pickup.name
+                ? (pickup.name && pickup.name !== 'Current Location'
+                  ? pickup.name
+                  : 'Location detected but Place name unavailable')
                 : locationLoading
                 ? 'Detecting location...'
                 : 'Click the red pin to detect your location'}
