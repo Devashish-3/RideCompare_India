@@ -228,7 +228,7 @@ export async function reverseGeocode(
 
 
     // Better user fallback
-    return `Pickup Location (${lat.toFixed(4)}, ${lng.toFixed(4)})`;
+    return `Pickup Location Detected (Name Unavailable)`;
 
   }
 
