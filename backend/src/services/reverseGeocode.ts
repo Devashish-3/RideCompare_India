@@ -65,59 +65,110 @@
 import axios from 'axios';
 
 /**
- * Simple in-memory cache to reduce repeated calls to Nominatim.
- * Prevents hitting rate limits for same/similar coordinates.
+ * Cache to reduce repeated Nominatim requests.
+ * Helps prevent 429 rate limit errors.
  */
 const reverseGeoCache = new Map<string, string>();
 
+
+async function fetchFromNominatim(lat: number, lng: number) {
+
+  const endpoint =
+    process.env.REVERSE_GEOCODE_URL ||
+    'https://nominatim.openstreetmap.org/reverse';
+
+
+  const response = await axios.get(endpoint, {
+
+    params: {
+      format: 'json',
+      lat,
+      lon: lng,
+      addressdetails: 1
+    },
+
+    headers: {
+      'User-Agent':
+        'RideCompare India MVP - contact@ridecompare.india',
+      Accept: 'application/json'
+    },
+
+    timeout: 15000
+  });
+
+
+  return response.data;
+}
+
+
 /**
- * Reverse geocode coordinates into a readable place name.
- * Uses OpenStreetMap Nominatim service.
+ * Reverse geocode coordinates into readable place name.
  */
 export async function reverseGeocode(
   lat: number,
   lng: number
 ): Promise<string> {
 
-  // Round coordinates to avoid duplicate requests for tiny GPS changes
+
+  // Round GPS values to avoid duplicate calls
   const cacheKey = `${lat.toFixed(4)},${lng.toFixed(4)}`;
 
-  // Return cached result if available
+
+  // Return cached result
   const cached = reverseGeoCache.get(cacheKey);
 
   if (cached) {
     return cached;
   }
 
-  const endpoint =
-    process.env.REVERSE_GEOCODE_URL ||
-    'https://nominatim.openstreetmap.org/reverse';
 
   try {
-    const response = await axios.get(endpoint, {
-      params: {
-        format: 'json',
-        lat,
-        lon: lng,
-        addressdetails: 1
-      },
 
-      headers: {
-        // Required by Nominatim usage policy
-        'User-Agent':
-          'RideCompare India MVP - contact@ridecompare.india',
-        Accept: 'application/json'
-      },
-
-      timeout: 15000
-    });
+    let data;
 
 
-    const data = response.data;
+    try {
+
+      // First attempt
+      data = await fetchFromNominatim(lat, lng);
+
+
+    } catch (err: any) {
+
+
+      // Handle Nominatim rate limit
+      if (err.response?.status === 429) {
+
+
+        console.warn(
+          'Nominatim rate limited. Retrying after delay...'
+        );
+
+
+        // wait 3 seconds
+        await new Promise(resolve =>
+          setTimeout(resolve, 3000)
+        );
+
+
+        // Retry once
+        data = await fetchFromNominatim(lat, lng);
+
+
+      } else {
+
+        throw err;
+
+      }
+    }
+
+
 
     const address = data?.address ?? {};
 
+
     const parts = [
+
       address.neighbourhood,
       address.suburb,
       address.village,
@@ -126,57 +177,59 @@ export async function reverseGeocode(
       address.district,
       address.county,
       address.state
+
     ].filter(Boolean);
+
 
 
     let placeName = 'Current Location';
 
 
+
     if (parts.length > 0) {
-      placeName = parts.slice(0, 2).join(', ');
+
+      placeName = parts
+        .slice(0, 2)
+        .join(', ');
+
     }
+
     else if (typeof data?.display_name === 'string') {
+
       placeName = data.display_name;
+
     }
 
 
-    // Save result in cache
-    reverseGeoCache.set(cacheKey, placeName);
+
+    // Save successful result
+    reverseGeoCache.set(
+      cacheKey,
+      placeName
+    );
 
 
     return placeName;
 
 
+
   } catch (err: any) {
 
 
-    if (err.response) {
-
-      console.error(
-        'Reverse geocode provider error:',
-        {
-          status: err.response.status,
-          message: err.response.data
-        }
-      );
-
-
-      // Handle Nominatim rate limit
-      if (err.response.status === 429) {
-        return 'Location detected (please confirm pickup point)';
+    console.error(
+      'Reverse geocode failed:',
+      {
+        status: err.response?.status,
+        message:
+          err.response?.data ||
+          err.message
       }
-
-    } else {
-
-      console.error(
-        'Reverse geocode request failed:',
-        err.message || err
-      );
-
-    }
+    );
 
 
-    // Safe fallback
-    return 'Location detected (please confirm pickup point)';
+    // Better user fallback
+    return `Pickup Location (${lat.toFixed(4)}, ${lng.toFixed(4)})`;
+
   }
+
 }
